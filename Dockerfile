@@ -3,5 +3,5 @@ ENV PORT=3000
 COPY ./ ./app
 WORKDIR /app
 RUN npm install
-CMD node server.js
+CMD node index.js
 EXPOSE 3000
